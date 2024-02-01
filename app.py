@@ -145,12 +145,12 @@ st.markdown("</br>", unsafe_allow_html=True)
 
 st.markdown("<h3 style='font-family: Roboto Light, sans-serif; text-align:justify;'>Um pouco mais sobre a construção do projeto...</h3>", unsafe_allow_html=True)
 st.markdown("<h6 style='font-family: Roboto Light, sans-serif; text-align:justify;'>Esse projeto tem origem no tech challenge da fase 4 da pós tech de Data Analytics da FIAP. Foram utilizados os dados da base da <a href='http://www.ipeadata.gov.br/Default.aspx'>IPEA</a>.</h6>", unsafe_allow_html=True)
-st.image('imagens\\ipea.jpg', caption='Site do IPEA')
+st.image('ipea.jpg', caption='Site do IPEA')
 
 st.markdown("<h6 style='font-family: Roboto Light, sans-serif; text-align:justify;'>Com a base de dados carregadas, os dados foram transformados e tratados via jupyter notebook, para remover, por exemplo, os dias de fim de semana em que os valores são nulos.</h6>", unsafe_allow_html=True)
-st.image('imagens\\valores_nulos.jpg', caption='Trecho de código em que os valores nulos são removidos')
+st.image('valores_nulos.jpg', caption='Trecho de código em que os valores nulos são removidos')
 
 st.markdown("<h6 style='font-family: Roboto Light, sans-serif; text-align:justify;'>Após o tratamento desse e de outros pequenos problemas no conjunto de dados, o modelo de previsão do <a href='https://facebook.github.io/prophet/docs/quick_start.html'>Prophet</a> foi o escolhido para a previsão dos valores dos barris de petróleo brent, sendo reafirmado como um bom modelo para essa finalidade por meio do cálculo das métricas de desenvolvimento.</h6>", unsafe_allow_html=True)
-st.image('imagens\\metricas.jpg', caption='Métricas de desenvolvimento calculadas a partir da eficácia do Prophet na previsão dos dados')
+st.image('metricas.jpg', caption='Métricas de desenvolvimento calculadas a partir da eficácia do Prophet na previsão dos dados')
 
 st.markdown("<h6 style='font-family: Roboto Light, sans-serif; text-align:justify;'>Esse site foi construído com o uso do <a href='https://docs.streamlit.io/'>streamlit</a> e as bibliotecas python <a href='https://pandas.pydata.org/'>pandas</a> e <a href='https://matplotlib.org/'>matplotlib</a>.</h6>", unsafe_allow_html=True)
